@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg_container {
+  background-color: #9ba9eb;
+  background-size: cover;
+  height: 100%;
+  width: 100vw;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  height: 32px;
+  width: 95px;
+  margin-right: 649px;
+  margin-bottom: 30px;
+}
+
+.password-container {
+  height: fit-content;
+  width: 60vw;
+  background-color: #5763a5;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.add_newPassword_container {
+  height: fit-content;
+  width: fit-content;
+  background-color: #454f84;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.add_new_password_heading {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  text-align: none;
+}
+
+.search_input_container {
+  display: flex;
+}
+
+.searchimage_container {
+  background-color: white;
+  border-radius: 1px;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  margin-right: 1px;
+}
+
+.search_image {
+  height: 18px;
+  margin-top: 4px;
+  margin-bottom: 5px;
+}
+
+.inputuser {
+  width: 190px;
+  border-radius: 0px;
+  border-width: 0px;
+  height: 25px;
+  border-color: transparent;
+}
+
+.add_container {
+  display: flex;
+  justify-content: end;
+}
+
+.addbutton {
+  background-color: #0b69ff;
+  border-radius: 3px;
+  border-width: 0px;
+  font-family: 'Roboto';
+  color: white;
+  padding: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.password_manager_image {
+  height: 290px;
+  width: 300px;
+}
+
+.rectangle_your_password-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rectangle-div {
+  position: relative;
+  border-radius: 3px;
+  background-color: transparent;
+  border: 1px solid #faf6f6;
+  box-sizing: border-box;
+  width: 22px;
+  height: 22px;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 9px;
+}
+
+.your-password {
+  position: relative;
+  font-size: 18px;
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: #fff;
+  text-align: left;
+  height: 20px;
+}
+
+.search_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.password-container_history {
+  height: fit-content;
+  width: 60vw;
+  background-color: #5763a5;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.password-element-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.show_password {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 16px;
+}
+
+.checkbox_container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.newpassword_history_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.no_password_image_container {
+  text-align: center;
+}
+
+.no_password_image {
+  height: 210px;
+  width: 300px;
+}
